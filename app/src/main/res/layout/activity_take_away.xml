@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,39 +13,39 @@
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/margin_24"
         android:textSize="24sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
 
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_24"
-            android:layout_gravity="center"
-            android:hint="Masukkan Nama Anda"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_24"
+        android:layout_gravity="center"
+        android:hint="Masukkan Nama Anda" />
 
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin_24"
-            android:hint="Masukkan No HP Anda"
-            android:inputType="phone"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_24"
+        android:hint="Masukkan No HP Anda"
+        android:inputType="phone" />
 
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin_24"
-            android:hint="Masukkan Alamat Anda"
-            android:inputType="text"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_24"
+        android:hint="Masukkan Alamat Anda"
+        android:inputType="text" />
 
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin_24"
-            android:hint="Masukkan Catatan"
-            android:inputType="text"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_24"
+        android:hint="Masukkan Catatan"
+        android:inputType="text" />
 
     <Button
         android:layout_width="wrap_content"
@@ -54,6 +53,6 @@
         android:text="Pilih Pesanan"
         android:onClick="pilihpesan"
         android:layout_marginTop="10dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center" />
 
 </LinearLayout>

@@ -1,9 +1,9 @@
 package taufiq.com.ahmad_taufiq_hidayat_1202152178_modul2;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -29,7 +29,7 @@ public class SplashScreen extends AppCompatActivity {
                                           Intent i = new Intent(SplashScreen.this, MainActivity.class);
                                           startActivity(i);
                                           //menampilkan toast
-                                          Toast.makeText(SplashScreen.this,"AHMAD TAUFIQ HIDAYAT_1202152178",Toast.LENGTH_LONG).show();
+                                          Toast.makeText(SplashScreen.this, "AHMAD TAUFIQ HIDAYAT_1202152178", Toast.LENGTH_LONG).show();
 
                                           this.finish();
                                       }
@@ -41,5 +41,7 @@ public class SplashScreen extends AppCompatActivity {
                 //mengatur time out dari splash screen
                 3000);
 
-    };
+    }
+
+    ;
 }

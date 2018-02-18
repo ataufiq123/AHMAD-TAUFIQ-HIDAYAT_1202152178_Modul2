@@ -1,8 +1,8 @@
 package taufiq.com.ahmad_taufiq_hidayat_1202152178_modul2;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
@@ -23,7 +23,7 @@ public class DineIn extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         //jika spinner tidak kosong maka akan menset isi adapter dengan daftar yg di string.xml
-        if (meja != null){
+        if (meja != null) {
             meja.setAdapter(adapter);
         }
 
@@ -32,7 +32,7 @@ public class DineIn extends AppCompatActivity {
     public void pilihPesanan(View view) {
 
         //Intent ke screen daftar menu
-        Intent a = new Intent(DineIn.this,DaftarMenu.class);
+        Intent a = new Intent(DineIn.this, DaftarMenu.class);
         startActivity(a);
     }
 }
