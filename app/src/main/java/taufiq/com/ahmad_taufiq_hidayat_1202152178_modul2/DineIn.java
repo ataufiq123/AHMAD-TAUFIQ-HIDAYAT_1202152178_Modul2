@@ -19,7 +19,8 @@ public class DineIn extends AppCompatActivity {
         meja = (Spinner) findViewById(R.id.nomeja);
 
         //memanggil array untuk menampung data yang ada pada spinner nantinya
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.labels_array, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.labels_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         //jika spinner tidak kosong maka akan menset isi adapter dengan daftar yg di string.xml

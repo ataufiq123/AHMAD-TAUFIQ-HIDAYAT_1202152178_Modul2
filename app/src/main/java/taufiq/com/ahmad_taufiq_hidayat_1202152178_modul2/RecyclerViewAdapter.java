@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.LinkedList;
@@ -57,6 +58,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         public final TextView foodItemView;
         public final TextView priceItemView;
         public final ImageView photoItemView;
+        public RelativeLayout relativeLayout;
 
         final RecyclerViewAdapter mAdapter;
 
@@ -65,7 +67,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             foodItemView = (TextView) itemView.findViewById(R.id.tv_food);
             priceItemView = (TextView) itemView.findViewById(R.id.tv_price);
             photoItemView = (ImageView) itemView.findViewById(R.id.iv_photo);
-            photoItemView.setOnClickListener(new View.OnClickListener() {
+            relativeLayout = (RelativeLayout) itemView.findViewById(R.id.list_view);
+
+
+            relativeLayout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     // Get the position of the item that was clicked.

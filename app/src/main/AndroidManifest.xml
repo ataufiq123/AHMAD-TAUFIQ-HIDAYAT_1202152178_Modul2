@@ -26,7 +26,8 @@
             android:parentActivityName=".MainActivity" />
         />
         <activity android:name=".DaftarMenu" />
-        <activity android:name=".DetailMenu"></activity>
+        <activity android:name=".DetailMenu"
+            android:parentActivityName=".DaftarMenu" />
     </application>
 
 </manifest>
